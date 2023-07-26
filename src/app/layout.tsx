@@ -28,7 +28,7 @@ export default function RootLayout({
       <head>
         <PlausibleProvider
           domain="marco-greiveldinger.de"
-          customDomain="https://plausible.marco-greiveldinger.de/"
+          customDomain="https://plausible.marco-greiveldinger.de"
           selfHosted={true}
         />
       </head>
