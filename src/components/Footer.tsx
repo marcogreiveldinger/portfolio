@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer: FC = () => {
   return (
-    <div className="bg-black fixed inset-x-0 bottom-0 flex items-center ml-1 p-4 space-x-4 transition-all duration-1000 ease-in-out">
+    <div className="bg-black fixed inset-x-0 bottom-0 flex items-center p-4 space-x-4 transition-all duration-1000 ease-in-out">
       <NavLink href="/imprint">Imprint</NavLink>
       <NavLink href="/privacy-policy">Privacy policy</NavLink>
     </div>

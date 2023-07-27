@@ -70,7 +70,7 @@ function HomeSection(): ReactElement {
           </Link>
         </div>
       </div>
-      <div className="w-1/2 flex justify-center">
+      <div className="w-1/2 flex justify-center mt-10">
         <Image
           src="/avatar.png"
           className="rounded-full w-64 h-64"
