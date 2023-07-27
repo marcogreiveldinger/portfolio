@@ -8,7 +8,7 @@ const Navbar: FC = () => {
   return (
     <nav className="flex items-center justify-between p-4 top-0 transition-all duration-1000 ease-in-out">
       <Link href="/" className="cursor-pointer">
-        <div className="items-center hidden sm:flex">
+        <div className="flex items-center">
           <Image
             src="/mg.png"
             alt="Logo"
@@ -32,7 +32,7 @@ const Navbar: FC = () => {
           <FontAwesomeIcon
             icon={faEnvelope}
             style={{ color: "#000000" }}
-            className="flex md:hidden"
+            className="block md:hidden"
           />
         </Link>
       </div>

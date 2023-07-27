@@ -9,7 +9,7 @@ function HomeSection(): ReactElement {
   return (
     <section id="home" className="flex items-center py-16 ">
       <div className="w-1/2">
-        <h1 className="text-6xl text-white font-bold mb-4">
+        <h1 className="text-6xl text-white font-bold mb-8">
           Marco Greiveldinger
         </h1>
         <p className="text-white font-mono">
