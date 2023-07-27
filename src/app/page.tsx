@@ -38,7 +38,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <HomeSection />
           <AboutMeSection />
-          <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 items-center">
+          <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 items-center mb-14">
             <div className="w-full md:w-1/2 leading-loose">
               <div className="mx-auto max-w-xl items-center mb-8 flex justify-center">
                 <ProjectsSection />

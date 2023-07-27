@@ -28,12 +28,10 @@ const Navbar: FC = () => {
           className="hover:bg-pink-500 hover:text-white active:bg-pink-600 focus-default cursor-pointer rounded-full px-[20px] py-[10px] transition-colors bg-black text-white dark:bg-white dark:text-black text-base font-normal"
           href={"mailto:hello@marco-greiveldinger.de"}
         >
-          <p className="hidden md:flex">hello@marco-greiveldinger.de</p>
-          <FontAwesomeIcon
-            icon={faEnvelope}
-            style={{ color: "#000000" }}
-            className="block md:hidden"
-          />
+          <p className="hidden md:block">hello@marco-greiveldinger.de</p>
+          <p className="block md:hidden">
+            <FontAwesomeIcon icon={faEnvelope} style={{ color: "#000000" }} />
+          </p>
         </Link>
       </div>
     </nav>
