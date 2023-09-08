@@ -30,7 +30,7 @@ const Navbar: FC = () => {
         >
           <p className="hidden md:block">hello@marco-greiveldinger.de</p>
           <p className="block md:hidden">
-            <FontAwesomeIcon icon={faEnvelope} style={{ color: "#000000" }} />
+            <FontAwesomeIcon icon={faEnvelope} />
           </p>
         </Link>
       </div>
