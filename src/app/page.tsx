@@ -46,7 +46,7 @@ export default function Home() {
             </div>
             <div className="w-full md:w-1/2 leading-loose">
               <div className="mx-auto max-w-xl py-8">
-                <h1 className="mb-8 text-center text-3xl text-white font-bold ">
+                <h1 className="mb-8 text-center text-3xl font-bold ">
                   <Link href={"/blog"}>Blog section</Link>
                 </h1>
                 {posts.map((post, idx) => (

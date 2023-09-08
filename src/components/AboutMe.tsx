@@ -4,9 +4,9 @@ const AboutMeSection: React.FC = () => {
   return (
     <section id="aboutMe" className="flex items-center py-16">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl text-white font-bold mb-4">About Me</h2>
+        <h2 className="text-3xl font-bold mb-4">About Me</h2>
         <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
-          <div className="w-full md:w-1/2 text-white font-mono leading-loose">
+          <div className="w-full md:w-1/2 font-mono leading-loose">
             <p>
               I am a software developer with a love for coding and
               problem-solving and try to follow a DevOps mindset. Currently, I

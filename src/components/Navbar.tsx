@@ -15,9 +15,9 @@ const Navbar: FC = () => {
             width={0}
             height={0}
             sizes="100vw"
-            className="w-20 h-20 rounded-full"
+            className="w-20 h-20 rounded-full invert dark:invert-0"
           />
-          <div className="text-white hidden sm:flex">Marco Greiveldinger</div>
+          <div className="hidden sm:flex">Marco Greiveldinger</div>
         </div>
       </Link>
       <div className="flex items-center space-x-4">
@@ -45,7 +45,7 @@ interface NavLinkProps {
 
 const NavLink: FC<NavLinkProps> = ({ href, children }) => {
   return (
-    <Link className="group text-gray-300 transition duration-300 " href={href}>
+    <Link className="group transition duration-300 " href={href}>
       <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
       {children}
     </Link>
