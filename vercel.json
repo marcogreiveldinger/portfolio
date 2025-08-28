@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/js/script.js",
+      "destination": "https://plausible.hosting.marco-greiveldinger.de/js/script.js"
+    },
+    {
+      "source": "/proxy/api/event",
+      "destination": "https://plausible.hosting.marco-greiveldinger.de/api/event"
+    }
+  ]
+}
